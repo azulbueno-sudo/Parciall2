@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio y Preferencias - Azul Bueno</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    
+    <style>
+        /* --- ESTILOS CSS REQUERIDOS --- */
+        h1 {
+            font-family: 'Bitter', serif;
+            color: #0000FF; /* Color azul */
+            font-size: 15pt; /* Punto tipográfico 15 */
+        }
+        h2 {
+            font-family: 'Inter', sans-serif;
+            color: #000000; /* Color negro */
+            font-size: 12pt; /* Punto tipográfico 12 */
+        }
+        p {
+            font-family: 'Bitter', serif;
+            color: #000000; /* Color negro */
+            font-size: 9pt; /* Punto tipográfico 9 */
+        }
+
+        /* --- ESTILOS COMPLEMENTARIOS PARA MAQUETACIÓN --- */
+        body {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #ffffff;
+            line-height: 1.6;
+        }
+        section {
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+        .nav-enlace {
+            display: inline-block;
+            margin: 15px 0;
+            padding: 8px 12px;
+            background-color: #f0f4ff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-family: 'Inter', sans-serif;
+            font-size: 10pt;
+            font-weight: bold;
+        }
+        .nav-enlace:hover {
+            background-color: #dbe4ff;
+        }
+        .galeria {
+            margin: 30px 0;
+        }
+        .item-galeria {
+            margin-bottom: 35px;
+            padding: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            background-color: #fafafa;
+        }
+        .item-galeria img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 12px;
+        }
+        .descripcion-derechos {
+            font-size: 8.5pt;
+            color: #444444;
+            border-top: 1px dashed #cccccc;
+            padding-top: 10px;
+            margin-top: 10px;
+        }
+        .licencia-alternativa {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-left: 4px solid #0000FF;
+            margin: 25px 0;
+        }
+        .contenedor-video {
+            margin: 25px 0;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border: 1px solid #e0e0e0;
+        }
+        .reproductor-flexible {
+            position: relative;
+            padding-bottom: 56.25%; /* Proporción 16:9 */
+            height: 0;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+        .reproductor-flexible iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #dddddd;
+            margin: 50px 0;
+        }
+        a {
+            color: #0000FF;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="portfolio">
+        <h1>Mi Portfolio</h1>
+        <h2>Azul Bueno - Diseñadora gráfica</h2>
+        
+        <p>Egresada de la Universidad Provincial de Córdoba en 2024, actualmente me encuentro cursando la Licenciatura en Diseño y paralelamente trabajo como freelancer. Les comparto un referente del diseño que me gusta mucho <a href="https://www.ninioeditor.com/munari" target="_blank" rel="noopener noreferrer">a: Bruno Munari</a>.</p>
+        
+        <p>Sitio Web creado para la materia Laboratorio Digital en 2026, <a href="https://buendisenoazul.wordpress.com/?_gl=1*107uru1*_gcl_au*ODc4Njk2OTQ0LjE3NzYxODY5ODQuMTcyNTI5MDk1NC4xNzgxMzg0MTkyLjE3ODEzODQyMDE." target="_blank" rel="noopener noreferrer">https://buendisenoazul.wordpress.com/</a></p>
+
+        <a href="#musica" class="nav-enlace">Ir a Sección de Preferencias Musicales / Audiovisuales &rarr;</a>
+
+        <div class="galeria">
+            <h2>Galería de Imágenes y Atribuciones</h2>
+            
+            <div class="item-galeria">
+                <p>
+                    <a href="https://commons.wikimedia.org/wiki/File:Schw%C3%A4bisch_Hall_-_Altstadt_-_Salinenstra%C3%9Fe_-_Ansicht_von_NNW_(1).jpg#/media/File:Schw%C3%A4bisch_Hall_-_Altstadt_-_Salinenstra%C3%9Fe_-_Ansicht_von_NNW_(1).jpg" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Schw%C3%A4bisch_Hall_-_Altstadt_-_Salinenstra%C3%9Fe_-_Ansicht_von_NNW_%281%29.jpg/1280px-Schw%C3%A4bisch_Hall_-_Altstadt_-_Salinenstra%C3%9Fe_-_Ansicht_von_NNW_%281%29.jpg" alt="Schwäbisch Hall - Altstadt - Salinenstraße - Ansicht von NNW (1).jpg">
+                    </a>
+                    <br>By <a href="//commons.wikimedia.org/wiki/User:Aristeas" title="User:Aristeas" target="_blank">Roman Eisele</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0" target="_blank">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=153313154" target="_blank">Link</a>
+                </p>
+                <div class="descripcion-derechos">
+                    <p><strong>Descripción de Derechos de Autor:</strong> Esta fotografía titulada "Schwäbisch Hall - Altstadt" es una obra propia de Roman Eisele. Está sujeta a derechos de autor pero se distribuye abiertamente bajo la licencia comercial y libre <strong>Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)</strong>. Esto otorga el derecho de copiar, redistribuir, remezclar y transformar el material bajo la condición obligatoria de reconocer adecuadamente la autoría y mantener la misma licencia para las obras derivadas.</p>
+                </div>
+            </div>
+
+            <div class="item-galeria">
+                <p>
+                    <a href="https://commons.wikimedia.org/wiki/File:The_Beach_at_Sainte-Adresse_by_Fr%C3%A9d%C3%A9ric_Bazille,_High_Museum_of_Art.jpg#/media/File:The_Beach_at_Sainte-Adresse_by_Fr%C3%A9d%C3%A9ric_Bazille,_High_Museum_of_Art.jpg" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/The_Beach_at_Sainte-Adresse_by_Fr%C3%A9d%C3%A9ric_Bazille%2C_High_Museum_of_Art.jpg/1280px-The_Beach_at_Sainte-Adresse_by_Fr%C3%A9d%C3%A9ric_Bazille%2C_High_Museum_of_Art.jpg" alt="The Beach at Sainte-Adresse by Frédéric Bazille, High Museum of Art.jpg">
+                    </a>
+                    <br>By <a href="https://en.wikipedia.org/wiki/en:Fr%C3%A9d%C3%A9ric_Bazille" class="extiw" title="w:en:Frédéric Bazille" target="_blank"><span title="French painter (1841–1870)">Frédéric Bazille</span></a> - <span class="int-own-work" lang="en">Own work</span>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=28867070" target="_blank">Link</a>
+                </p>
+                <div class="descripcion-derechos">
+                    <p><strong>Descripción de Derechos de Autor:</strong> La obra pictórica "The Beach at Sainte-Adresse" del pintor francés Frédéric Bazille (1841–1870) pertenece legalmente al <strong>Dominio Público</strong>. Al haber transcurrido holgadamente más de 100 años desde el deceso del autor original, los derechos patrimoniales sobre la obra han expirado a nivel global, permitiendo su libre uso, reproducción y distribución sin restricciones ni necesidad de autorizaciones previas.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="licencia-alternativa">
+            <p><strong>Licencia del Sitio Web:</strong> A diferencia del Copyright restrictivo habitual, los contenidos de este portfolio se comparten bajo una licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank" rel="noopener noreferrer">Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)</a>. Se permite su visualización, adaptación y distribución con fines educativos o artísticos siempre que no medie lucro, se reconozca la autoría de Azul Bueno y se comparta bajo los mismos términos.</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="musica">
+        <h1>Preferencias Audiovisuales</h1>
+        <h2>Mi Entorno Sonoro e Inspiración Musical</h2>
+        <p>A continuación se presentan integraciones multimedia correspondientes a mis preferencias dentro del espacio audiovisual, los cuales complementan los procesos creativos dentro de mi rol en el diseño.</p>
+
+        <a href="#portfolio" class="nav-enlace">&larr; Volver al Portfolio de Azul Bueno</a>
+
+        <div class="contenedor-video">
+            <h2>Preferencia Audiovisual 1</h2>
+            <div class="reproductor-flexible">
+                <iframe src="https://www.youtube.com/embed/XiHnYkqaf8E" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p><strong>Atribución de Autoría:</strong> Esta obra musical y de video es propiedad intelectual exclusiva de sus respectivos compositores y productores discográficos asignados. Recurso enlazado externamente mediante su canal de difusión oficial. Enlace de referencia original: <a href="https://youtu.be/XiHnYkqaf8E?si=Wmlrf1JmdKNXiKGF" target="_blank">https://youtu.be/XiHnYkqaf8E</a>.</p>
+        </div>
+
+        <div class="contenedor-video">
+            <h2>Preferencia Audiovisual 2</h2>
+            <div class="reproductor-flexible">
+                <iframe src="https://www.youtube.com/embed/oTpEBaqM3kQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p><strong>Atribución de Autoría:</strong> Contenido audiovisual protegido por derechos de autor pertenecientes a los artistas ejecutantes y sellos editoriales pertinentes. Utilizado bajo directivas estándar de inserción autorizada provistas por la plataforma externa. Enlace de referencia original: <a href="https://youtu.be/oTpEBaqM3kQ?si=IQuoAfDMgZIMtgj8" target="_blank">https://youtu.be/oTpEBaqM3kQ</a>.</p>
+        </div>
+    </section>
+
+</body>
+</html>
